@@ -8,7 +8,7 @@ from collections import Counter
 from sklearn.metrics import classification_report, f1_score
 
 # Load the dataset
-df0 = pd.read_csv("lvl4/src/level_4.in")  # Replace with actual filename
+df0 = pd.read_csv("lvl4/src/level_4.in")  
 df1 = pd.read_csv("lvl3/src/all_data_from_level_1.in")
 
 is_fahrenheit = (df1['Temperature [°C]'] > 60)
@@ -152,3 +152,4 @@ submission.to_csv("lvl4_output.csv", index=False)
 submission.to_csv("lvl4_output.out", index=False)
 
 print("Submission file created yayy :)")
+
